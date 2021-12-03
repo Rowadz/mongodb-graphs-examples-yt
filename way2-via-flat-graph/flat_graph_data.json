@@ -1,0 +1,98 @@
+[
+  {
+    "_id": {
+      "$oid": "61aa30132cb3c73f19181f24"
+    },
+    "body": "Lorem ipsum dolor sit amet.",
+    "deleted": false,
+    "direct_replies": [
+      { "_id": { "$oid": "61aa222f2cb3c73f19181ef7" } },
+      { "_id": { "$oid": "61aa228a2cb3c73f19181ef9" } },
+      { "_id": { "$oid": "61aa22bc2cb3c73f19181efb" } }
+    ],
+    "replies": {
+      "61aa222f2cb3c73f19181ef7": {
+        "_id": {
+          "$oid": "61aa222f2cb3c73f19181ef7"
+        },
+        "deleted": false,
+        "parent_id": {
+          "$oid": "61aa30132cb3c73f19181f24"
+        },
+        "body": "Donec commodo odio ut cursus luctus.",
+        "created_at": {
+          "$date": "2021-01-02T22:00:00Z"
+        }
+      },
+      "61aa228a2cb3c73f19181ef9": {
+        "_id": {
+          "$oid": "61aa228a2cb3c73f19181ef9"
+        },
+        "deleted": false,
+        "direct_replies": [{ "_id": { "$oid": "61aa22ff2cb3c73f19181efc" } }],
+        "body": "Donec sed tortor in urna commodo consectetur rhoncus in quam.",
+        "parent_id": {
+          "$oid": "61aa30132cb3c73f19181f24"
+        },
+        "created_at": {
+          "$date": "2021-01-03T22:00:00Z"
+        }
+      },
+      "61aa22bc2cb3c73f19181efb": {
+        "_id": {
+          "$oid": "61aa22bc2cb3c73f19181efb"
+        },
+        "deleted": false,
+        "body": "Integer accumsan turpis id nibh ultricies ullamcorper.",
+        "parent_id": {
+          "$oid": "61aa30132cb3c73f19181f24"
+        },
+        "direct_replies": [{ "_id": { "$oid": "61aa22ff2cb3c73f19181efc" } }],
+        "created_at": {
+          "$date": "2021-01-04T22:00:00Z"
+        }
+      },
+      "61aa22ff2cb3c73f19181efc": {
+        "_id": {
+          "$oid": "61aa22ff2cb3c73f19181efc"
+        },
+        "deleted": false,
+        "direct_replies": [{ "_id": { "$oid": "61aa23222cb3c73f19181efd" } }],
+        "body": "Duis ac lacus imperdiet, cursus sem quis, commodo erat.",
+        "created_at": {
+          "$date": "2021-01-06T22:00:00Z"
+        },
+        "parent_id": {
+          "$oid": "61aa228a2cb3c73f19181ef9"
+        }
+      },
+      "61aa23222cb3c73f19181efd": {
+        "_id": {
+          "$oid": "61aa23222cb3c73f19181efd"
+        },
+        "direct_replies": [{ "_id": { "$oid": "61aa237c2cb3c73f19181efe" } }],
+        "body": "Vestibulum quis lacus vitae est lacinia posuere.",
+        "parent_id": {
+          "$iod": "61aa22ff2cb3c73f19181efc"
+        },
+        "deleted": false,
+        "created_at": {
+          "$date": "2021-02-02T22:00:00Z"
+        }
+      },
+      "61aa237c2cb3c73f19181efe": {
+        "_id": {
+          "$oid": "61aa237c2cb3c73f19181efe"
+        },
+        "parent_id": {
+          "$oid": "61aa23222cb3c73f19181efd"
+        },
+        "body": "Cras a ligula ac ligula gravida aliquam vitae quis nisl.",
+        "deleted": false,
+        "created_at": {
+          "$date": "2021-02-03T22:00:00Z"
+        }
+      }
+    }
+  }
+]
