@@ -11,7 +11,7 @@ lab playlist
 https://youtube.com/playlist?list=PLM0LBHjz37LU9wTI6mttZ5qeu5F3hcotf
 
 
-<img src="ROWAD_LABZ_004_thumb.png" />
+<img src="thumb.png" />
 
 
 # MongoDB basics notes
