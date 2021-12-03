@@ -6,7 +6,10 @@
   connectFromField: '_id',
   connectToField: 'parent_id',
   as: 'comments',
-  depthField: 'depth'
+  depthField: 'depth',
+  restrictSearchWithMatch: {
+    deleted: false
+  }
 }}, {$unwind: {
   path: '$comments'
 }}, {$sort: 

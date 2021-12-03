@@ -2,7 +2,8 @@
   "_id": {
     "$oid": "61aa22022cb3c73f19181ef6"
   },
-  "body": "Lorem ipsum dolor sit amet."
+  "body": "Lorem ipsum dolor sit amet.",
+  "deleted": false
 },{
   "_id": {
     "$oid": "61aa222f2cb3c73f19181ef7"
@@ -13,7 +14,8 @@
   "body": "Donec commodo odio ut cursus luctus.",
   "created_at": {
     "$date": "2021-01-02T22:00:00Z"
-  }
+  },
+  "deleted": false
 },{
   "_id": {
     "$oid": "61aa228a2cb3c73f19181ef9"
@@ -24,7 +26,8 @@
   },
   "created_at": {
     "$date": "2021-01-03T22:00:00Z"
-  }
+  },
+  "deleted": false
 },{
   "_id": {
     "$oid": "61aa22bc2cb3c73f19181efb"
@@ -35,7 +38,8 @@
   },
   "created_at": {
     "$date": "2021-01-04T22:00:00Z"
-  }
+  },
+  "deleted": false
 },{
   "_id": {
     "$oid": "61aa22ff2cb3c73f19181efc"
@@ -46,7 +50,8 @@
   },
   "created_at": {
     "$date": "2021-01-06T22:00:00Z"
-  }
+  },
+  "deleted": false
 },{
   "_id": {
     "$oid": "61aa23222cb3c73f19181efd"
@@ -57,7 +62,8 @@
   },
   "created_at": {
     "$date": "2021-02-02T22:00:00Z"
-  }
+  },
+  "delted": false
 },{
   "_id": {
     "$oid": "61aa237c2cb3c73f19181efe"
@@ -68,7 +74,8 @@
   "body": "Cras a ligula ac ligula gravida aliquam vitae quis nisl.",
   "created_at": {
     "$date": "2021-02-03T22:00:00Z"
-  }
+  },
+  "deleted": false
 },{
   "_id": {
     "$oid": "61aa23ae2cb3c73f19181eff"
@@ -79,7 +86,8 @@
   "body": "Etiam varius ipsum aliquet, consequat erat ut, commodo nunc.",
   "created_at": {
     "$date": "2021-02-10T22:00:00Z"
-  }
+  },
+  "deleted": false
 },{
   "_id": {
     "$oid": "61aa23cd2cb3c73f19181f00"
@@ -90,7 +98,8 @@
   "body": "Maecenas quis erat vel lectus porta fermentum sed ac nulla.",
   "created_at": {
     "$date": "2021-11-12T22:00:00Z"
-  }
+  },
+  "deleted": false
 },{
   "_id": {
     "$oid": "61aa23f02cb3c73f19181f01"
@@ -101,7 +110,8 @@
   "body": "Quisque faucibus leo non dolor dapibus, in semper ex fermentum.",
   "created_at": {
     "$date": "2021-11-02T22:00:00Z"
-  }
+  },
+  "deleted": false
 },{
   "_id": {
     "$oid": "61aa24192cb3c73f19181f02"
@@ -112,7 +122,8 @@
   "body": "Nunc molestie leo a elit bibendum commodo.",
   "created_at": {
     "$date": "2021-10-20T22:00:00Z"
-  }
+  },
+  "deleted": false
 },{
   "_id": {
     "$oid": "61aa243e2cb3c73f19181f04"
@@ -123,7 +134,8 @@
   "body": "Donec lacinia velit ac est interdum, ac accumsan nulla volutpat.",
   "created_at": {
     "$date": "2021-12-12T22:00:00Z"
-  }
+  },
+  "deleted": false
 },{
   "_id": {
     "$oid": "61aa24552cb3c73f19181f05"
@@ -134,5 +146,6 @@
   "body": "Donec vitae mi et urna sollicitudin scelerisque.",
   "created_at": {
     "$date": "2021-12-15T22:00:00Z"
-  }
+  },
+  "deleted": false
 }]

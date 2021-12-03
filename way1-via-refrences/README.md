@@ -40,3 +40,7 @@ The `.js` files containes the code to run the aggregation in nodejs, and the `.t
 
 https://mohammedal-rowad.github.io/mongodb-notes/
 
+
+# To handle soft delete 
+
+we just put `restrictSearchWithMatch: {deleted: false}` in the [$graphLookup](https://docs.mongodb.com/manual/reference/operator/aggregation/graphLookup/)
