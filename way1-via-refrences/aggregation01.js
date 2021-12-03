@@ -1,0 +1,38 @@
+[
+  {
+      '$match': {
+          '_id': ObjectId('61aa22022cb3c73f19181ef6')
+      }
+  }, {
+      '$graphLookup': {
+          'from': 'refrence_graph', 
+          'startWith': '$_id', 
+          'connectFromField': '_id', 
+          'connectToField': 'parent_id', 
+          'as': 'comments', 
+          'depthField': 'depth'
+      }
+  }, {
+      '$unwind': {
+          'path': '$comments'
+      }
+  }, {
+      '$sort': {
+          'comments.depth': 1, 
+          'comments.created_at': 1
+      }
+  }, {
+      '$group': {
+          '_id': '$comments.depth', 
+          'comments_by_depth': {
+              '$push': '$comments'
+          }
+      }
+  }, {
+      '$project': {
+          '_id': 0, 
+          'depth': '$_id', 
+          'comments': '$comments_by_depth'
+      }
+  }
+]
