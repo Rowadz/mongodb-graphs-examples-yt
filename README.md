@@ -16,6 +16,6 @@ https://youtube.com/playlist?list=PLM0LBHjz37LU9wTI6mttZ5qeu5F3hcotf
 
 # MongoDB basics notes
 
-https://mohammedal-rowad.github.io/mongodb-notes/
+https://rowadz.github.io/mongodb-notes/
 
 
